@@ -1,0 +1,4 @@
+#Wed Jan 12 11:49:14 ICT 2022
+base.0=C\:\\Users\\Administrator\\StudioProjects\\sakura\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

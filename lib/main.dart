@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:navigation_drawer/screens/account.dart';
-import 'package:navigation_drawer/screens/home.dart';
-import 'package:navigation_drawer/screens/settings.dart';
-import 'package:navigation_drawer/screens/login.dart';
-import 'package:flutter_test/flutter_test.dart';
+import 'package:sakura/screens/account.dart';
+import 'package:sakura/screens/home.dart';
+import 'package:sakura/screens/settings.dart';
+import 'package:sakura/screens/login.dart';
+import 'package:sakura/screens/machine_scan.dart';
 
 void main() {
   runApp(MaterialApp(
+    //theme: new ThemeData(scaffoldBackgroundColor: const Color(0xFFEFEFEF)),
     debugShowCheckedModeBanner: false,
-    home: LoginScreen(), //HomeScreen(), // route for home is '/' implicitly
+    home: LoginScreen(),//MachineScanScreen(), //HomeScreen(), // route for home is '/' implicitly
     routes: <String, WidgetBuilder>{
       // define the routes
       SettingsScreen.routeName: (BuildContext context) => SettingsScreen(),

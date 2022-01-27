@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/sakura/sakura/BuildConfig.java
+ com.sakura.sakura.BuildConfig

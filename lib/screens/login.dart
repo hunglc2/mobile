@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:navigation_drawer/screens/account.dart';
-import 'package:navigation_drawer/screens/settings.dart';
-import 'package:navigation_drawer/screens/home.dart';
+import 'package:sakura/screens/account.dart';
+import 'package:sakura/screens/settings.dart';
+import 'package:sakura/screens/home.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -18,6 +18,7 @@ class _State extends State<LoginScreen> {
         /*appBar: AppBar(
           title: Text('SAKURA App'),
         ),*/
+        backgroundColor: Colors.white,
         body: Padding(
             padding: EdgeInsets.all(10),
             child: ListView(
@@ -25,9 +26,10 @@ class _State extends State<LoginScreen> {
                 Container(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
+                      children: const [
                         //new Image.asset('../assets/images/logo-sakura.jpg', width: 100.0, height: 100.0),
-                        const Image(image: AssetImage('images/logo-sakura.jpg'))
+                        //Image(image: AssetImage('assets/images/logo-sakura.jpg'), width: 200.0, height: 300.0)
+                        Image(image: AssetImage('lib/assets/images/logo-sakura.jpg'))
                       ],
                     )),
                 /*Container(
